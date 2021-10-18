@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "description": "",
   "scripts": {
+    "fix-parcel": "npx npm-force-resolutions && npm i && npm i",
+
     "start": "parcel index.html",
     "build": "parcel build index.html"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,7 +18,7 @@
   },
   "devDependencies": {
     "babel-preset-nano-react-app": "^0.1.0",
-    "parcel": "^2.0.0-alpha.3.2"
+    "parcel": "1.12.4"
   },
   "babel": {
     "presets": [
