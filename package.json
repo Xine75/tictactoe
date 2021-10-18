@@ -4,7 +4,6 @@
   "description": "",
   "scripts": {
     "fix-parcel": "npx npm-force-resolutions && npm i && npm i",
-
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
@@ -13,12 +12,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "node-sass": "^6.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
     "babel-preset-nano-react-app": "^0.1.0",
-    "parcel": "1.12.4"
+    "parcel": "^1.12.4"
   },
   "babel": {
     "presets": [
