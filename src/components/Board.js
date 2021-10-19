@@ -13,6 +13,7 @@ const Board = ({board, handleSquareClick, winningSquares}) => {
         isWinningSquare={isWinningSquare} 
         />
         );
+        
     };
 
     return (
